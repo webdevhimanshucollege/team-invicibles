@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-color: black;color-scheme: white;}
+        /* #login{border: 2px solid aqua;} */
+       
+        body {
+            background-color:rgb(29, 32, 73);
+      background: url(https://www.bing.com/th?id=OIP.1cbDuvvh_fY2__d1L7ZYmAHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2); background-repeat: no-repeat;background-size: cover;}
+        #forgot{position: absolute;top: 570px;left: 184px;color: seagreen;}
+
+        #details {
+            position: absolute;
+            top: 334px;
+            left: 134px;
+            border-radius: 6px;
+            box-sizing: content-box;
+            margin: 2px 2px 2px 2px;
+            padding: 20px 90px 20px 20px;
+        }
+
+        #password {
+            position: absolute;
+            top: 410px;
+            left: 134px;
+            margin: 2px 2px 2px 2px;
+            padding: 20px 90px 20px 20px;
+            border-radius: 6px;
+        }
+
+        #submit {
+            position: absolute;
+            top: 489px;
+            left: 134px;
+            margin: 1px 2px 1px 2px;
+            padding: 20px 115px 20px 115px;
+            border-radius: 6px;
+            background-color: #1877f2;
+            color: white;
+            font-family: inherit;
+            font-size: 20px;
+        }
+
+        .box {
+            background-color: rgb(43, 42, 85);
+            border: black;
+            position: absolute;
+            top: 44px;
+            left: 900px;
+            height: 500px;
+            width: 400px;
+            margin: 2px;
+            padding: 90px 90px 90px 90px;
+        }
+        #login{color: teal;position: absolute;top: 10vh;right: 20vw;size: 100%;}
+    </style>
+</head>
+<body>
+    <!-- <div id="login">
+        <form action="mailto:arorahimanshu2022@gmail.com">
+            <label for="mobile">
+
+            </label>
+            <input type="text" id="mobile" placeholder=" Enter Your Mobile Phone Or Aadhar Number:"><br><hr>
+            <button class="btn">Send OTP</button><br><hr>
+            <label for="verify">
+
+            </label>
+            <input type="password" id="Verify" placeholder=" Enter Your password or OTP:"><br><hr>
+        </form>
+    </div> -->
+    <div class="box">
+        <form action="backend.php">
+            <img src="http://disabilityaffairs.gov.in/content/image/logo.png" width="500px" style="filter: invert(100%);position: absolute;top: 20%;" id="divya_govt"
+            alt="Department of Empowerment of Persons with Disabilities(Divyangjan)" >
+            <h2 id="login" style="position: absolute;top: 28%;font-size: 60px;left: 30%;">LOGIN</h2><br><br><br>
+            <img src="https://th.bing.com/th/id/R.9cd4dd24685e81c5d3cbc557efc2d6c3?rik=icS624xJzv3gpw&riu=http%3a%2f%2folsbbsr.org%2fwp-content%2fuploads%2f2017%2f01%2fmsj_logo1.jpg&ehk=xHq%2bPdZAYC0P8YeHMaN2MgpYaEzIVkARPsdFubLqnJg%3d&risl=&pid=ImgRaw&r=0"
+                alt="Ministry of Social Justice and Empowerment" id="social_govt" width="300px" style="position: absolute; top: 2%;left: 20%;">
+            <input type="text" class="form" id="details" placeholder="aadhar or phone number">
+            <div>
+                <input type="password" class="form" id="password" placeholder="password">
+            </div>
+            <button id="submit" class="form">login</button>
+            <a href="forgot.html" id="forgot" class="form">Forgot Your Password?</a>
+        </form>
+        <p>New user? Signup:<a href="/register.html">Register </a>
+        <a href="/register2.html">Register2 </a></p>
+
+    </div>
+</body>
+</html>
